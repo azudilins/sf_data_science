@@ -5,7 +5,7 @@
 - [2. Какой кейс решаем?](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Какой-кейс-решаем)
 - [3. Краткая информация о данных](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Краткая-информация-о-данных)
 - [4. Этапы работы над проектом](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Этапы-работы-над-проектом)
-- [5. Результат](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Результат)
+- [5. Ссылка на датасет](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Ссылка-на-датасет)
 - [6. Выводы](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Выводы)
 
 ### Описание проекта
@@ -40,11 +40,11 @@
 - Очистка данных.
 
 
-### Результат
-....
+### Ссылка на датасет
+- https://drive.google.com/file/d/1OYqxOJGYhrpJpTTHSVTEwy340pB974QI/view?usp=sharing
 
 
 ### Выводы
-....
+- Выводы по графикам находятся в ноутбуке "Project" 1 в разделе "Разведывательный анализ"
 
 :arrow_up: [к оглавлению](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Оглавление)
