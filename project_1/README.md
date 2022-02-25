@@ -5,7 +5,7 @@
 - [2. Какой кейс решаем?](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Какой-кейс-решаем)
 - [3. Краткая информация о данных](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Краткая-информация-о-данных)
 - [4. Этапы работы над проектом](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Этапы-работы-над-проектом)
-- [5. Ссылка на датасет](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Ссылка-на-датасет)
+- [5. Результат](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Результат)
 - [6. Выводы](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Выводы)
 
 ### Описание проекта
@@ -21,7 +21,7 @@
   Это является помехой для рекомендательной системы HeadHunter, которая подбирает соискателям список наиболее подходящих вакансий, а работодателям — список наиболее подходящих специалистов.
 
 **Метрика качества**
-- Касечтво работы оценивается командой курса SkillFactory.
+- Качество работы оценивается командой курса SkillFactory.
 
 **Что практикуем**
 - Учимся использовать пройденный материал: переменные, основные структуры данных (списки, словари, множества),
@@ -31,6 +31,8 @@
 ### Краткая информация о данных
 - База резюме, выгруженная с сайта поиска вакансий hh.ru.
 - Ноутбук-шаблон.
+- ссылка на датасет https://drive.google.com/file/d/1OYqxOJGYhrpJpTTHSVTEwy340pB974QI/view?usp=sharing
+- графики в формате HTML находятся в папке plotly
 
 
 ### Этапы работы над проектом
@@ -40,11 +42,11 @@
 - Очистка данных.
 
 
-### Ссылка на датасет
-- https://drive.google.com/file/d/1OYqxOJGYhrpJpTTHSVTEwy340pB974QI/view?usp=sharing
+### Результат
+....
 
 
 ### Выводы
-- Выводы по графикам находятся в ноутбуке "Project" 1 в разделе "Разведывательный анализ"
+....
 
 :arrow_up: [к оглавлению](https://github.com/azudilins/sf_data_science/tree/main/project_1/README.md#Оглавление)
