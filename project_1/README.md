@@ -31,8 +31,11 @@
 ### Краткая информация о данных
 - База резюме, выгруженная с сайта поиска вакансий hh.ru.
 - Ноутбук-шаблон.
-- ссылка на датасет https://drive.google.com/file/d/1OYqxOJGYhrpJpTTHSVTEwy340pB974QI/view?usp=sharing
-- графики в формате HTML находятся в папке plotly
+- Курс валют.
+- Ссылка на датасет https://drive.google.com/file/d/1OYqxOJGYhrpJpTTHSVTEwy340pB974QI/view?usp=sharing
+- Графики в формате HTML находятся в папке plotly.
+- Ссылка на копию проекта в Google Colab (отображаются графики):
+  https://colab.research.google.com/drive/18gW50cqMU3nHBL4ZgsR6c7o7dEWP6zpL?usp=sharing
 
 
 ### Этапы работы над проектом
