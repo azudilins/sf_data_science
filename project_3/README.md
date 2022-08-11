@@ -54,7 +54,7 @@
 
 ### Результат
 - Leaderboard на Kaggle.com: https://www.kaggle.com/competitions/sf-booking/leaderboard
-  Team: Алексей Зудилин
+- Team: Алексей Зудилин
 
 
 ### Выводы
