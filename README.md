@@ -9,5 +9,7 @@ From the [SkillFactory Data Science Course](https://skillfactory.ru/data-scienti
 * [Проект 3. Прогнозирование рейтинга отеля на Booking](https://github.com/azudilins/sf_data_science/tree/main/project_3)
 * [Проект 4. Задача классификации](https://github.com/azudilins/sf_data_science/tree/main/project_4)
 * [Проект 5. Задача регрессии](https://github.com/azudilins/sf_data_science/tree/main/project_5)
+* [Проект 6. Сегментирование клиентов онлайн-магазина подарков](https://github.com/azudilins/sf_data_science/tree/main/project_6)
+* [Проект 8. Агентство недвижимости](https://github.com/azudilins/sf_data_science/tree/main/project_8)
 
 ## Ссылки на резюме
