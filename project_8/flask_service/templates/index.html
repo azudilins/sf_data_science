@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Real Estate Value Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="status" placeholder="status" required="required" />
+        <input type="text" name="private pool" placeholder="private pool" required="required" />
+		<input type="text" name="propertyType" placeholder="propertyType" required="required" />
+		<input type="text" name="street" placeholder="street" required="required" />
+    	<input type="text" name="baths" placeholder="baths" required="required" />
+        <input type="text" name="homeFacts" placeholder="homeFacts" required="required" />
+		<input type="text" name="fireplace" placeholder="fireplace" required="required" />
+		<input type="text" name="city" placeholder="city" required="required" />
+    	<input type="text" name="schools" placeholder="schools" required="required" />
+        <input type="text" name="sqft" placeholder="sqft" required="required" />
+		<input type="text" name="zipcode" placeholder="zipcode" required="required" />
+		<input type="text" name="beds" placeholder="beds" required="required" />
+    	<input type="text" name="state" placeholder="state" required="required" />
+        <input type="text" name="stories" placeholder="stories" required="required" />
+		<input type="text" name="mls-id" placeholder="mls-id" required="required" />
+		<input type="text" name="PrivatePool" placeholder="PrivatePool" required="required" />
+		<input type="text" name="MlsId" placeholder="MlsId" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
