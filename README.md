@@ -13,3 +13,6 @@ From the [SkillFactory Data Science Course](https://skillfactory.ru/data-scienti
 * [Проект 8. Агентство недвижимости](https://github.com/azudilins/sf_data_science/tree/main/project_8)
 
 ## Ссылки на резюме
+
+* [RUS](https://drive.google.com/file/d/1QPbHUBH3zDLQkiYYcQRrN8Ohd2RtZmS1/view?usp=sharing)
+* [ENG](https://drive.google.com/file/d/1NioDw2IH6xsam-rC0IFiqiBCN27rMeOq/view?usp=sharing)
