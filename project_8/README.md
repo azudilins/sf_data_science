@@ -39,7 +39,6 @@
 
 ### Краткая информация о данных
 - датасет: https://drive.google.com/file/d/1tbwZBGOqSrIsapfLsDqCs8RDJwISlOAN/view?usp=sharing
-- финальная модель: https://drive.google.com/file/d/1jjFH3bBMNFoYEm6BkqtvOkls-MkvaRrk/view?usp=share_link
 
 
 ### Этапы работы над проектом
