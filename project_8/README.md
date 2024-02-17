@@ -51,6 +51,7 @@
 
 
 ### Результат
+- [Оценка ментора SkillFactory](https://docs.google.com/document/d/1_23XPgYAaUokaIDFDLsbez1DuyRr_99M/edit?usp=drive_link&ouid=111721483302452498672&rtpof=true&sd=true)
 - Разработано множество моделей с разными гиперпараметрами.
 - Лучшая модель подготовлена для запуска в продакшен.
 
