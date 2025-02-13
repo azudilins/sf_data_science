@@ -11,6 +11,8 @@ From the [SkillFactory Data Science Course](https://skillfactory.ru/data-scienti
 * [Проект 5. Задача регрессии](https://github.com/azudilins/sf_data_science/tree/main/project_5)
 * [Проект 6. Сегментирование клиентов онлайн-магазина подарков](https://github.com/azudilins/sf_data_science/tree/main/project_6)
 * [Проект 8. Агентство недвижимости](https://github.com/azudilins/sf_data_science/tree/main/project_8)
+* [Дипломный проект](https://github.com/azudilins/sf_data_science/tree/main/final_project)
+* [Мини-проекты](https://github.com/azudilins/sf_data_science/tree/main/mini_projects)
 
 ## Ссылки на резюме
 
