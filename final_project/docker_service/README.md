@@ -4,19 +4,19 @@
 ## Оглавление
 - [1. Входных данных для обучения](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Входных-данных-для-обучения)
 - [2. Трансформации исходного датасета](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Трансформации-исходного-датасета)
-- [3. Краткая информация о данных](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Краткая-информация-о-данных)
-- [4. Этапы работы над проектом](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Этапы-работы-над-проектом)
-- [5. Результат](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Результат)
-- [6. Выводы](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Выводы)
+- [3. Построение валидации](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Построение-валидации)
+- [4. Проведённые эксперименты](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Проведённые-эксперименты)
+- [5. Docker образ](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Docker-образ)
+- [6. API сервиса](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#API-сервиса)
 
 
 ### Входных данных для обучения
 - Формат: xgb.DMatrix
 - Факторы: [
-        'weekday', 'month', 'day', 'hour', 'minute', 'afternoon', '698', '689',
-        '28', '928', '348', 'time_feature', 'property_feature', 'user_feature',
-        'item_feature'
-    ]
+    'weekday', 'month', 'day', 'hour', 'minute', 'afternoon', '698', '689',
+    '28', '928', '348', 'time_feature', 'property_feature', 'user_feature',
+    'item_feature'
+  ]
 
 
 ### Трансформации исходного датасета
@@ -28,53 +28,37 @@
 - преобразование коррелирующих признаков
 
 
-**Проблематика**
-- Есть только три места для показа товаров на главной странице.
+### Построение валидации
+- сортировка по временной метке
+- разделение на train, test и valid без перемешивания
+- обучение на train
+- подбор параметров модели на test
+- рассчёт метрики на valid
 
 
-**Метрика качества**
-- Precision@3 (техническая метрика)
-- Прибыль (бизнес-метрика)
+### Проведённые эксперименты
+- Тип модели: Коллаборативная фильтрация
+    - Precision@3: 0.1073
+- Тип модели: Факторизационные машины
+    - Precision@3: 0.0857
+- Тип модели: XGBoost
+    - Precision@3: 0.2642
+    - Гиперпараметры: {
+        'min_child_weight': 20, 'eta': 0.1, 'colsample_bytree': 0.9,
+        'max_depth': 6, 'subsample': 0.9, 'lambda': 1, 'nthread': -1,
+        'booster' : 'gbtree', 'eval_metric': 'rmse', 'objective': 'reg:squarederror'
+      }
 
 
-**Что практикуем**
-- Обработка и очистка данных
-- Использование инструментов визуализации
-- Применение машинного обучения для задачи рекомендации
-- Валидация моделей и оценка качества
-- Создание flask-приложения
-- Контейнеризация сервиса в docker-образ
+### Docker образ
+- Команды для запуска:
+    - docker pull azudilins/final_project_image
+    - docker run -it --rm --name=server_container -p=5000:5000 final_project_image
+- Устройство: flask-приложение
 
 
-### Краткая информация о данных
-- events: датасет с событиями
-- category_tree: файл с деревом категорий
-- item_properties: файл со свойствами товаров
-- презентация: https://docs.google.com/presentation/d/1uXfSEuQ0tiLStNCexBeXZ51sEG-1KjhTn-pUL5AKSvM/edit?usp=sharing
+### API сервиса
+- вводим идентификатор пользователя и получаем рекоммендацию 3 продуктов 
+- при нажатии на кнопку Метрика получаем Precision@3 на валидации
 
-
-### Этапы работы над проектом
-- Исследование данных
-- Очистка данных
-- Создание факторов для модели
-- Генерация факторов item-user
-- Обнаружение и ликвидация неинформативных признаков
-- Корреляция и снижение размерности
-- Визуализация данных
-- Проведение экспериментов
-- Создание MVP
-- Контейнеризация
-
-
-### Результат
-- Разработаны модели: коллаборативная фильтрация, факторизационные машины, XGBoost.
-- Лучшая модель подготовлена для запуска в продакшен.
-- Лучший результат Precision@3: 0.2642 - XGBoost
-
-
-### Выводы
-Это лишь один из возможных вариантов работы над проектом, дополнительно можно:
-- перебрать больше свойств товаров (использовано только 20 из более чем 1000),
-- искать выбросы, подобрать гиперпараметры модели и т.д.
-
-:arrow_up: [к оглавлению](https://github.com/azudilins/sf_data_science/tree/main/final_project/README.md#Оглавление)
+:arrow_up: [к оглавлению](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Оглавление)
