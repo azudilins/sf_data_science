@@ -2,7 +2,7 @@
 
 
 ## Оглавление
-- [1. Входные данных для обучения](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Входные-данных-для-обучения)
+- [1. Входные данные для обучения](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Входные-данные-для-обучения)
 - [2. Трансформации исходного датасета](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Трансформации-исходного-датасета)
 - [3. Построение валидации](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Построение-валидации)
 - [4. Проведённые эксперименты](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#Проведённые-эксперименты)
@@ -10,7 +10,7 @@
 - [6. API сервиса](https://github.com/azudilins/sf_data_science/tree/main/final_project/docker_service/README.md#API-сервиса)
 
 
-### Входные данных для обучения
+### Входные данные для обучения
 - Формат: XGBoost DMatrix
 - Факторы: [
     'weekday', 'month', 'day', 'hour', 'minute', 'afternoon', '698', '689',
