@@ -42,6 +42,7 @@
 - category_tree: файл с деревом категорий
 - item_properties: файл со свойствами товаров
 - презентация: https://docs.google.com/presentation/d/1uXfSEuQ0tiLStNCexBeXZ51sEG-1KjhTn-pUL5AKSvM/edit?usp=sharing
+- docker-образ: https://hub.docker.com/r/azudilins/final_project_image
 
 
 ### Этапы работы над проектом
