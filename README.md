@@ -11,11 +11,11 @@ From the [SkillFactory Data Science Course](https://skillfactory.ru/data-scienti
 * [Проект 5. Задача регрессии](https://github.com/azudilins/sf_data_science/tree/main/project_5)
 * [Проект 6. Сегментирование клиентов онлайн-магазина подарков](https://github.com/azudilins/sf_data_science/tree/main/project_6)
 * [Проект 8. Агентство недвижимости](https://github.com/azudilins/sf_data_science/tree/main/project_8)
-* [Дипломный проект](https://github.com/azudilins/sf_data_science/tree/main/final_project)
+* [Дипломный проект. Рекомендательная система](https://github.com/azudilins/sf_data_science/tree/main/final_project)
 * [Мини-проекты](https://github.com/azudilins/sf_data_science/tree/main/mini_projects)
 
 ## Ссылки на резюме
 
-* [RUS](https://drive.google.com/file/d/19g8NH03cmznf7hwYhHary_x32K9ec7DV/view?usp=drive_link)
-* [LAT](https://drive.google.com/file/d/1X88wscOTeBDGZb9Szji7D1sWemm3Hpao/view?usp=drive_link)
-* [ENG](https://drive.google.com/file/d/1xkCwwWs-98gjJQDmnR-3RdOTTR1QzpOo/view?usp=drive_link)
+* [RUS](https://drive.google.com/file/d/1AgTZkGP7avfMa6xBHGR59f5UMYVuliAo/view?usp=sharing)
+* [LAT](https://drive.google.com/file/d/11f21iPY2YrfukAta-sZFCe4UFTrKCu9W/view?usp=sharing)
+* [ENG](https://drive.google.com/file/d/1LB3_3sgwrDamZw6S86ya5fIQL4PmEeJS/view?usp=sharing)
