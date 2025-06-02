@@ -16,6 +16,6 @@ From the [SkillFactory Data Science Course](https://skillfactory.ru/data-scienti
 
 ## Ссылки на резюме
 
-* [RUS](https://drive.google.com/file/d/1C3sm3T6MOOuNzwmCEPn9D_UwuIwjaSgX/view?usp=sharing)
-* [LAT](https://drive.google.com/file/d/1eD3_okzKCXQET0eAAkQtmeFHoRTUpC1-/view?usp=sharing)
-* [ENG](https://drive.google.com/file/d/1fkQQFciuNs3rDgDU1r9r3JuWuGqR948Q/view?usp=sharing)
+* [LAT](https://drive.google.com/file/d/1A1RMtFXXRXnfcv6OBfMoC_eQpd4dtlC6/view?usp=sharing)
+* [ENG](https://drive.google.com/file/d/1N2tt5lnPDmzkGz7Ljm5Y0-0GsNLMfsiT/view?usp=sharing)
+* [RUS](https://drive.google.com/file/d/1DYnFQzt3L8gP6BWrsrHe1p4qGqeH3r7z/view?usp=sharing)
